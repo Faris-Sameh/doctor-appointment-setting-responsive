@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.home-container{
+    height: 600px;
+    background-image: url(../img/download.jpg);
+    background-size: cover;
+}
+.home-container h2{
+    padding: 30px;
+    background-color: #5ea58e;
+    border-radius: 20px;
+    line-height: 1.5;
+    letter-spacing: 3px;
+    font-size: 43px;
+    color: white;
+    font-family: monospace;
+    margin-top: 54px;
+}
+.school-section hr{
+    height: 3px;
+    background-color: red;
+    width: 180px;
+    margin: auto;
+}
+.services-section{
+    background-image: url(../img/Path\ 62.png),url(../img/i-love-my-job-so-much_329181-2178.png);
+    background-size: cover;
+    height: 700px;
+}
+@media only screen and (max-width:992px){
+    .services-section{
+        height: fit-content;
+    }
+}
+.footer{
+    background-color: #067960;
+    border-radius: 172px 172px 0 0;
+}
